@@ -7,7 +7,7 @@ Open up Terminal.app and run the following commands:
 ```sh
 mkdir -p ~/workspace
 cd ~/workspace
-git clone https://github.com/pivotal/workstation-setup.git
+git clone https://github.com/hjhart/workstation-setup.git
 cd workstation-setup
 ```
 
