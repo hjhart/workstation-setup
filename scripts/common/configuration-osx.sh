@@ -27,6 +27,8 @@ curl https://raw.githubusercontent.com/kcrawford/dockutil/master/scripts/dockuti
 chmod a+rx,go-w /usr/local/bin/dockutil
 dockutil --list | awk -F\t '{print "dockutil --remove \""$1"\" --no-restart"}' | sh
 dockutil --add /Applications/Google\ Chrome.app --no-restart
+dockutil --add /Applications/Firefox.app --no-restart
+dockutil --add /Applications/Slack.app --no-restart
 dockutil --add /Applications/iTerm.app
 
  
